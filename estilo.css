@@ -1,0 +1,217 @@
+/*PROJETO CARDÁPIO*/
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #D8C5A8;
+}
+
+#linha_topo{
+    /*position:fixed;*/
+    width: 100%;
+    top: 0;
+    margin-top: 45px;
+}
+#superior{
+    z-index: 9999;
+    position: sticky;
+}
+
+header{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url('fundoint2.png'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem no cabeçalho */
+}
+header figure{
+    height: 190px;
+    width: 190px;
+    margin-right: 5%;
+}
+header h1{
+    font-size: 50px;
+    font-family:'Holtwood One SC';
+    color:rgb(81, 24, 24)
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height:auto;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    min-width: 50%;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    /* display: inline; */
+    align-items: center;
+}
+
+nav ul li a{
+    display:inline-block;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-family:'Holtwood One SC';
+}
+
+nav ul li a:hover{
+    background-color: darkgray;
+}
+
+#parte1{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-image: url('fundopart3.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#parte1 h1{
+    font-family:'Holtwood One SC';
+}
+
+
+#parte2{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-image: url('fundopart3.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parte3{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-image: url('fundopart3.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parte4{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-image: url('fundopart3.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    width: 350px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('fc.png');
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px black;
+}
+.card figure {
+    width: 200px;
+    height: 210px;
+    margin-top: 130px;
+}
+.card figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h2{
+    font-family:'Holtwood One SC';
+}
+.card p{
+    font-family:'Rokkitt';
+    font-size: 20px;
+}
+#rodape{
+    background-color: white;
+    height: 200px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: url('fundoint2.png'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem no cabeçalho */
+}
+#rodape figure{
+    height: 190px;
+    width: 190px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#rodape h1{
+    font-size: 45px;
+    font-family:'Holtwood One SC';
+    color:rgb(81, 24, 24);
+    padding-right: 90px;
+}
+#rodape h2{
+    font-family:'Holtwood One SC';
+    margin-left: 5%;
+}
+
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+#rodape p{
+    font-family:'Rokkitt';
+    font-size: 25px;
+    padding-right: 15px;
+}
+#local{
+    font-family:'Holtwood One SC';
+    margin-left: 5%;
+}
+
+
+
+
+
